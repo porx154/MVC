@@ -1,1 +1,26 @@
-﻿
+﻿@{ 
+    ViewBag.Title = "REGISTRO DE USUARIOS";
+}
+<h4>@ViewBag.Title</h4>
+<div class="card">
+    <div class="contenedor-registro">
+        <form class="">
+            <div class="frm-registro">
+                <label>Empleado</label><br />
+                <input class="form-control" type="text" disabled />
+            </div>
+            <div class="frm-registro">
+                <label>Nombre de Usuario</label><br />
+                <input type="text" class="form-control" placeholder="Usuario" />
+            </div>
+            <div class="frm-registro">
+                <label>Contraseña</label><br />
+                <input type="password" class="form-control" placeholder="Contraseña" />
+            </div>
+            <div class="frm-registro">
+                <input type="submit" value="Registrar" class="btn btn-primary" />
+                <input type="submit" value="Cancelar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

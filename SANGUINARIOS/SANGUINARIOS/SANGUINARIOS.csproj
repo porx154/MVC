@@ -137,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\style-login.css" />
+    <Content Include="Content\css\style-menu.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\images\asc.gif" />
     <Content Include="Content\images\bg.gif" />

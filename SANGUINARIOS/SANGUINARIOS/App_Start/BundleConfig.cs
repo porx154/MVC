@@ -17,7 +17,8 @@ namespace SANGUINARIOS
                 "~/Content/node_modules/font-awesome/css/font-awesome.min.css",
                 "~/Content/node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.min.css",
                 "~/Content/node_modules/flag-icon-css/css/flag-icon.min.css",
-                "~/Content/css/style.css"));
+                "~/Content/css/style.css",
+                "~/Content/css/style-menu.css"));
 
 
  

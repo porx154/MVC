@@ -1,0 +1,12 @@
+﻿.contenedor-registro{
+    width:500px;
+    height:auto;
+    border:1px solid #b9b9b9 ;
+    border-radius:15px;
+    background:#d0d0d0;
+    margin:10px auto 10px;
+    padding:20px;
+}
+.frm-registro{
+    margin-top:10px;
+}
