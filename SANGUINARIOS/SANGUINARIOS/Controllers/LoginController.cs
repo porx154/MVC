@@ -17,6 +17,10 @@ namespace SANGUINARIOS.Controllers
         {
             return View();
         }
+        public ActionResult ConsultaEmpleadoUsuario()
+        {
+            return View();
+        }
         public ActionResult RegistroUsuario()
         {
             return View();

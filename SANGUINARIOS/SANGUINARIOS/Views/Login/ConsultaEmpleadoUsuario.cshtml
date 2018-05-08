@@ -1,0 +1,33 @@
+﻿@{ 
+    ViewBag.Title = "Consulta Empleados - Usuarios";
+}
+<h4>@ViewBag.Title</h4>
+<div class="card">
+    <div class="formulario">
+        <form>
+            <input type="text" class="form-control" />
+        </form>
+    </div>
+    <div class="table-responsive">
+        <table class="table center-aligned-table">
+            <thead>
+                <tr class="text-primary">
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Cargo</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Isaias Ronald Jonathan</td>
+                    <td>Macuri Mamani</td>
+                    <td>Administrador</td>
+                    <td>
+                        <a href="@Url.Action("RegistroUsuario","Login")" class="btn btn-outline-success btn-sm">Agregar Cuenta</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
