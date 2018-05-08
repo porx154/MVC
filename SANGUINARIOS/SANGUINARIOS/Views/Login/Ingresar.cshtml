@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+@{ 
+    Layout = null;
+}
+<html>
+<head>
+    <meta charset="UTF-8">
+        <title>Login-Porx @ViewBag.Title</title>
+        <link href="~/Content/css/style-login.css" rel="stylesheet" />
+    
+</head>
+<body>
+    @using (Html.BeginForm("Inicio", "Menu", FormMethod.Post, new { @class = "form-signin" }))
+    {
+        <div class="login">
+
+            <input type="text" name="user" placeholder="Usuario">
+            <input type="password" name="pass" placeholder="Contraseña">
+            <input type="submit" name="login" class="botonlogin" value="Ingresar">
+
+        </div>
+    }
+    
+</body>
+</html>
