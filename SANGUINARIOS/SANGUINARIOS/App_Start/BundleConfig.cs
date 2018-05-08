@@ -11,7 +11,7 @@ namespace SANGUINARIOS
 
         public static void RegisterBundles(BundleCollection bundles)
         {
-            //usando estilossss
+            //usando estilos de la plantilla
                 bundles.Add(new StyleBundle("~/bundles/css")
                 .Include(
                 "~/Content/node_modules/font-awesome/css/font-awesome.min.css",
