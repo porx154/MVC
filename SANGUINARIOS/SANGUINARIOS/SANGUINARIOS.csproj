@@ -1629,6 +1629,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Menu\Inicio.cshtml" />
     <Content Include="Views\Login\Ingresar.cshtml" />
+    <Content Include="Views\Menu\MenuSeguridad.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

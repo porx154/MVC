@@ -65,10 +65,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/forms/index.html">
-                <img src="~/Content/images/icons/005-forms.png" alt="">
-                <span class="menu-title">Forms</span>
-              </a>
+                <a class="nav-link" href="@Url.Action("MenuSeguridad","Menu")">
+                    <img src="~/Content/images/icons/005-forms.png" alt="">
+                    <span class="menu-title">Seguridad</span>  
+                </a>      
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/ui-elements/buttons.html">
@@ -145,8 +145,9 @@
         </nav>
 
         <!-- partial -->
-        @RenderBody()
+       
         <div class="content-wrapper">
+          @RenderBody()
           <h3 class="page-heading mb-4">Dashboard</h3>
           <div class="row">
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4">

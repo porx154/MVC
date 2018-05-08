@@ -13,5 +13,9 @@ namespace SANGUINARIOS.Controllers
         {
             return View();
         }
+        public ActionResult MenuSeguridad()
+        {
+            return View();
+        }
     }
 }
