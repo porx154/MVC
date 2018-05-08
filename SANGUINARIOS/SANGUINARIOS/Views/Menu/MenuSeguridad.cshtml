@@ -2,4 +2,20 @@
     ViewBag.Title = "Hola seguridad";
     
 }
-<h4>HOLAAAAAAAAAA!!!</h4>
+<h4>AQUI EL APARTADO DE SEGURIDAD</h4>
+<div class="contenedor-seguridad">
+    <div>
+       <!--consutas-->
+        <div>
+            @Html.ActionLink("Consultas", "ConsultaUsuario","Login")
+        </div>
+       <!--registro-->
+        <div>
+            @Html.ActionLink("Registro", "RegistroUsuario", "Login")
+        </div>
+       <!--actualizar-->
+        <div>
+            @Html.ActionLink("Actualizar", "ActualizarUsuario","Login")
+        </div>
+    </div>
+</div>

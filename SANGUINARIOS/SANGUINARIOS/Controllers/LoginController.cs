@@ -13,5 +13,17 @@ namespace SANGUINARIOS.Controllers
         {
             return View();
         }
+        public ActionResult ConsultaUsuario()
+        {
+            return View();
+        }
+        public ActionResult RegistroUsuario()
+        {
+            return View();
+        }
+        public ActionResult ActualizarUsuario()
+        {
+            return View();
+        }
     }
 }

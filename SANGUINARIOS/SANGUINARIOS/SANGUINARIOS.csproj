@@ -1630,6 +1630,9 @@
     <Content Include="Views\Menu\Inicio.cshtml" />
     <Content Include="Views\Login\Ingresar.cshtml" />
     <Content Include="Views\Menu\MenuSeguridad.cshtml" />
+    <Content Include="Views\Login\ConsultaUsuario.cshtml" />
+    <Content Include="Views\Login\RegistroUsuario.cshtml" />
+    <Content Include="Views\Login\ActualizarUsuario.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
