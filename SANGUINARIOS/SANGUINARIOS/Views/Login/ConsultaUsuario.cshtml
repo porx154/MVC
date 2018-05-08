@@ -1,1 +1,39 @@
-﻿
+﻿@{
+    ViewBag.Title = "Consulta Usuarios";
+}
+<h4>@ViewBag.Title</h4>
+<div class="card">
+    <div class="formulario">
+        <form>
+            <input type="text" class="form-control" />
+        </form>
+    </div>
+    <div class="table-responsive">
+        <table class="table center-aligned-table">
+            <thead>
+                <tr class="text-primary">
+                    <th>Nombre y Apellido del Empleado</th>
+                    <th>Nombre de Usuario</th>
+                    <th>Contraseña</th>
+                    <th>Cargo</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Isaias Ronald Jonathan Macuri Mamani</td>
+                    <td>Porx154</td>
+                    <td>●●●●●●●●●●●●</td>
+                    <td>Administrador</td>
+                    <td>
+                        <a href="#" class="btn btn-outline-success btn-sm">Ver Usuario</a>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("ActualizarUsuario","Login")" class="btn btn-outline-success btn-sm">Editar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

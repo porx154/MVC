@@ -1635,6 +1635,7 @@
     <Content Include="Views\Login\RegistroUsuario.cshtml" />
     <Content Include="Views\Login\ConsultaEmpleadoUsuario.cshtml" />
     <Content Include="Views\Login\ReporteUsuario.cshtml" />
+    <Content Include="Views\Login\ActualizarUsuario.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

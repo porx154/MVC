@@ -25,6 +25,10 @@ namespace SANGUINARIOS.Controllers
         {
             return View();
         }
+        public ActionResult ActualizarUsuario()
+        {
+            return View();
+        }
         public ActionResult ReporteUsuario()
         {
             return View();
