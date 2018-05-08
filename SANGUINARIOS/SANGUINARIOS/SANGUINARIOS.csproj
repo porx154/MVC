@@ -1633,8 +1633,8 @@
     <Content Include="Views\Menu\MenuSeguridad.cshtml" />
     <Content Include="Views\Login\ConsultaUsuario.cshtml" />
     <Content Include="Views\Login\RegistroUsuario.cshtml" />
-    <Content Include="Views\Login\ActualizarUsuario.cshtml" />
     <Content Include="Views\Login\ConsultaEmpleadoUsuario.cshtml" />
+    <Content Include="Views\Login\ReporteUsuario.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
