@@ -141,6 +141,8 @@
     <Content Include="Content\css\style.css" />
     <Content Include="Content\images\asc.gif" />
     <Content Include="Content\images\bg.gif" />
+    <Content Include="Content\images\consultasusu.jpg" />
+    <Content Include="Content\images\consulta-usuario.png" />
     <Content Include="Content\images\desc.gif" />
     <Content Include="Content\images\face.jpg" />
     <Content Include="Content\images\faces\backup\face1.jpg" />
@@ -346,6 +348,12 @@
     <Content Include="Content\images\logo_star_mini.jpg" />
     <Content Include="Content\images\mariana.jpg" />
     <Content Include="Content\images\profile.jpg" />
+    <Content Include="Content\images\registro-usuario-new.png" />
+    <Content Include="Content\images\registro-usuario.png" />
+    <Content Include="Content\images\registrous.jpg" />
+    <Content Include="Content\images\reporte-usuario-new.jpg" />
+    <Content Include="Content\images\reporte-usuario.jpg" />
+    <Content Include="Content\images\reportesusu.jpg" />
     <Content Include="Content\images\sprites\blue.png" />
     <Content Include="Content\images\sprites\dark.png" />
     <Content Include="Content\images\sprites\green.png" />

@@ -3,19 +3,25 @@
     
 }
 <h4>AQUI EL APARTADO DE SEGURIDAD</h4>
-<div class="contenedor-seguridad">
-    <div>
+<div class="card">
+    <div class="contenedor-menu">
        <!--consutas-->
-        <div>
-            @Html.ActionLink("Consultas", "ConsultaUsuario","Login")
+        <div class="consulta-usuario">
+            <a href="@Url.Action("ConsultaUsuario","Login")">
+                <img src="~/Content/images/consulta-usuario.png" />
+            </a>
         </div>
        <!--registro-->
-        <div>
-            @Html.ActionLink("Registro", "ConsultaEmpleadoUsuario", "Login")
+        <div class="registro-usuario">
+            <a href="@Url.Action("ConsultaEmpleadoUsuario","Login")">
+                <img src="~/Content/images/registro-usuario-new.png" />
+            </a>
         </div>
        <!--actualizar-->
-        <div>
-            @Html.ActionLink("Reportes", "ActualizarUsuario","Login")
+        <div class="reporte-usuario">
+            <a href="@Url.Action("ActualizarUsuario","Login")">
+                <img src="~/Content/images/reporte-usuario-new.jpg" />
+            </a>
         </div>
     </div>
 </div>
