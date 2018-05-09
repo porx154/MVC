@@ -17,5 +17,9 @@ namespace SANGUINARIOS.Controllers
         {
             return View();
         }
+        public ActionResult MenuCitas()
+        {
+            return View();
+        }
     }
 }

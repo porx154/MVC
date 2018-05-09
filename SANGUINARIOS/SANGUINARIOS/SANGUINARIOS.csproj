@@ -1322,6 +1322,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CitasController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Global.asax.cs">
@@ -1644,6 +1645,7 @@
     <Content Include="Views\Login\ConsultaEmpleadoUsuario.cshtml" />
     <Content Include="Views\Login\ReporteUsuario.cshtml" />
     <Content Include="Views\Login\ActualizarUsuario.cshtml" />
+    <Content Include="Views\Menu\MenuCitas.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1654,6 +1656,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Citas\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Content\node_modules\perfect-scrollbar\perfect-scrollbar.d.ts" />
