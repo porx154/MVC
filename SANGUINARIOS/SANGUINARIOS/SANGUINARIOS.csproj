@@ -141,6 +141,7 @@
     <Content Include="Content\css\style.css" />
     <Content Include="Content\images\asc.gif" />
     <Content Include="Content\images\bg.gif" />
+    <Content Include="Content\images\consultas-pa.jpg" />
     <Content Include="Content\images\consultasusu.jpg" />
     <Content Include="Content\images\consulta-usuario.png" />
     <Content Include="Content\images\desc.gif" />
@@ -350,6 +351,7 @@
     <Content Include="Content\images\profile.jpg" />
     <Content Include="Content\images\registro-usuario-new.png" />
     <Content Include="Content\images\registro-usuario.png" />
+    <Content Include="Content\images\registros-pa.png" />
     <Content Include="Content\images\registrous.jpg" />
     <Content Include="Content\images\reporte-usuario-new.jpg" />
     <Content Include="Content\images\reporte-usuario.jpg" />
@@ -1646,6 +1648,8 @@
     <Content Include="Views\Login\ReporteUsuario.cshtml" />
     <Content Include="Views\Login\ActualizarUsuario.cshtml" />
     <Content Include="Views\Menu\MenuCitas.cshtml" />
+    <Content Include="Views\Citas\RegistrosCita.cshtml" />
+    <Content Include="Views\Citas\ConsultasCita.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1656,7 +1660,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Citas\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Content\node_modules\perfect-scrollbar\perfect-scrollbar.d.ts" />

@@ -1,0 +1,33 @@
+﻿@{ 
+    ViewBag.Title = "Registro Citas";
+    ViewBag.sub = "Dato Paciente";
+}
+
+<h3> @ViewBag.Title </h3>
+<h5>@ViewBag.sub</h5>
+<br />
+<div class="card">
+    <div class="citas">
+        <form class="">
+            <div class="frm-registrocitas">
+                <label>DNI Paciente <input class="form-control" type="text" disabled /> </label>
+            </div>
+            <div class="frm-registrocitas">
+                <label>Nombre: <input class="form-control" type="text" disabled />  </label>
+            </div>
+            <div class="frm-registrocitas">
+                <label>Apellido: <input class="form-control" type="text" disabled /> </label>
+            </div>
+            <div class="frm-registrocitas">
+                <label>Direccion:  </label>
+                <input class="form-control" type="text" disabled />
+            </div>
+        </form>
+    </div>
+
+</div>
+<br />
+@{ 
+    ViewBag.sub = "Datos de la Cita";
+}
+<h5>@ViewBag.sub </h5>

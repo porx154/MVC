@@ -56,3 +56,12 @@
     background:url('../images/reportesusu.jpg');
     border-radius:0.5em;
 }
+ .Registro-citas:hover {
+     background:url('../images/registros-pa.png');
+     border-radius:0.5em;
+     
+    }
+    .Consultas-citas:hover {
+        background:url('../images/consultas-pa.jpg');
+        border-radius:0.5em;
+    }
